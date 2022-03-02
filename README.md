@@ -74,3 +74,22 @@ For commercial support options, please visit
 
 Copyright 2013-2021 GenieACS Inc. GenieACS is released under the
 [AGPLv3 license terms](https://raw.githubusercontent.com/genieacs/genieacs/master/LICENSE).
+
+## Running with docker
+
+The services expose the following ports:
+- 3000
+- 7547
+- 7557
+- 7567
+
+The services can take the following env variables:
+
+Reference: http://docs.genieacs.com/en/latest/environment-variables.html
+
+- `GENIEACS_MONGODB_CONNECTION_URL`
+- `GENIEACS_EXT_DIR`
+- `GENIEACS_CWMP_PORT`
+- `GENIEACS_NBI_PORT`
+- `GENIEACS_FS_PORT`
+- `GENIEACS_UI_PORT`
